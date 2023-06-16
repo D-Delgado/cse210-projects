@@ -33,7 +33,7 @@ class Program
             letter = "F";
         }
         
-        if (letter == "F" || grade >= 93)
+        if (letter == "F" ^ grade >= 93)
         {
             Console.WriteLine($"Your grade is: {letter}");
         }
